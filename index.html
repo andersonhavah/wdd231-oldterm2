@@ -4,21 +4,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="This is the home page for WDD 231 - Web Frontend Development I.">
+    <meta name="description" content="This is the home page for WDD 231 - Web Frontend Development I. This page contains information about Anderson Havah, his country, and his coursework. The page also contains a list of courses that Anderson has taken. The courses are filtered by CSE and WDD.">
     <meta name="author" content="Anderson Havah">
+
+    <!-- Meta OG properties -->
     <meta property="og:title" content="Anderson Havah | WDD 231 Course Home Page">
     <meta property="og:type" content="website">
     <meta property="og:image" content="https://prod.cdn-medias.jeuneafrique.com/cdn-cgi/image/q=auto,f=auto,metadata=none,width=1215,height=810,fit=cover/https://prod.cdn-medias.jeuneafrique.com/medias/2021/08/13/jad20210813-objectif-lome-ouverture.jpg">
     <meta property="og:url" content="index.html">
 
     <title>Anderson Havah | WDD 231 Course Home Page</title>
+
+    <!-- Import a google font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+
+    <!-- Styling -->
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/home-page.css">
     <link rel="stylesheet" href="styles/home-page-large.css">
     <link rel="icon" href="favicon.ico">
+
+    <!-- JavaScript files -->
     <script src="scripts/home-page.js" defer></script>
     <script src="scripts/getcourses.js" defer></script>
 </head>
@@ -27,7 +35,7 @@
     <!-- This is the header of the page -->
     <header>
         <img src="images/andersonPicture.webp" alt="Anderson Havah Profile Image" width="100">
-        <h1>Anderson Havah</h1>
+        <div class="myname">Anderson Havah</div>
     </header>
     <!-- This is the navigation -->
     <button type="button" id="menu" aria-label="the menu"></button>
@@ -42,6 +50,7 @@
 
     <!-- This is the main -->
     <main>
+        <h1>Home</h1>
         <section class="card-coursework">
             <h2>Course Work</h2>
             <ul>

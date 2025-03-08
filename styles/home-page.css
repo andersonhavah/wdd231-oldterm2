@@ -20,8 +20,10 @@ header {
     color: var(--white);
 }
 
-h1 {
+.myname {
     margin-left: 2rem;
+    font-size: 2rem;
+    font-weight: bold;
 }
 
 body {
@@ -99,6 +101,12 @@ main {
     display: grid;
     grid-template-columns: 1fr;
     gap: 0.5rem;
+}
+
+h1 {
+    text-align: center;
+    grid-column: 1 / 2;
+    margin: 0;
 }
 
 .card-country img {
