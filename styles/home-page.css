@@ -104,9 +104,9 @@ main {
 }
 
 h1 {
-    text-align: center;
     grid-column: 1 / 2;
     margin: 0;
+    padding-left: 1rem;
 }
 
 .card-country img {
