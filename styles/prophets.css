@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header h1 {
+    text-align: center;
+    background-color: #95dd4d;
+    padding: 1rem;
+}
+
+section {
+    border: 1px solid #000000;
+    border-radius: 5px;
+    margin: 1rem auto;
+    max-width: 350px;
+}
+
+section h2 {
+    background-color: #42dbdb;
+    padding: 1rem;
+    margin-top: 0;
+}
+
+section img {
+    margin: 0.5rem;
+    padding: 1rem;
+}
+
+#cards {
+    text-align: center;
+}
+
+p:nth-of-type(1) {
+    margin-top: 1rem;
+}
+
+footer {
+    text-align: center;
+    background-color: #95dd4d;
+    padding: 1rem;
+}
+
+@media screen and (min-width: 600px) {
+    #cards {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
