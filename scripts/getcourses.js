@@ -76,18 +76,7 @@ const courses = [
         ],
         completed: false
     }
-]
-
-// const coursesElement = document.querySelector('#courses');
-
-// courses.forEach(course => {
-//     const div = document.createElement('div');
-//     div.classList.add('course');
-//     const h3 = document.createElement('h3');
-//     h3.textContent = `${course.subject} ${course.number}`;
-//     div.appendChild(h3);
-//     coursesElement.appendChild(div);
-// });
+];
 
 const coursesContainer = document.getElementById('courses');
 const totalCreditsElement = document.getElementById('total-credits');
