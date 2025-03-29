@@ -1,7 +1,7 @@
 [
     {
         "name": "Ecobank",
-        "address": "2365, Boulevard du Mono - BP : 3261, Lomé, Togo",
+        "address": "2365, Boulevard du Mono, Lomé, Togo",
         "phone": "+228 22 21 03 03",
         "website": "https://www.ecobank.com/",
         "image": "ecobank.webp",
@@ -31,7 +31,7 @@
     },
     {
         "name": "Diamond Cement",
-        "address": "Diamond House - P.O. Box - 320, Tema, Ghana",
+        "address": "Diamond House, Tema, Ghana",
         "phone": "+233 (0) 201 521 829",
         "website": "https://diamondcement.com/togo/",
         "image": "diamondcement.webp",
@@ -41,7 +41,7 @@
     },
     {
         "name": "NSIA Banque",
-        "address": "3519 Boulevard du 13 Janvier, Doulassamé BP 3925 Lomé, Togo",
+        "address": "3519 Boulevard du 13 Janvier, Lome",
         "phone": "+228 22 53 10 01",
         "website": "https://nsiabanque.tg/",
         "image": "nsiabanque.webp",
