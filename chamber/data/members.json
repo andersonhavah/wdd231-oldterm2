@@ -1,0 +1,72 @@
+[
+    {
+        "name": "Ecobank",
+        "address": "2365, Boulevard du Mono - BP : 3261, Lomé, Togo",
+        "phone": "+228 22 21 03 03",
+        "website": "https://www.ecobank.com/",
+        "image": "ecobank.webp",
+        "membership_level": 3,
+        "industry": "Banking",
+        "email": "contact@ecobank.com"
+    },
+    {
+        "name": "Togo Presse",
+        "address": "Agoè, Lomé, Togo",
+        "phone": "+228 22 21 37 18",
+        "website": "https://www.togopresse.tg/",
+        "image": "togopresse.webp",
+        "membership_level": 2,
+        "industry": "Media",
+        "email": "info.digital@togopresse.tg"
+    },
+    {
+        "name": "Dodo Cosmetics",
+        "address": "Zone Franche, 11BP 112 Lomé-TOGO",
+        "phone": "+228 97 97 00 00",
+        "website": "https://www.dodo-cosmetics.com/",
+        "image": "dodocomestics.webp",
+        "membership_level": 1,
+        "industry": "Cosmetics",
+        "email": "contact@dodo-cosmetics.com"
+    },
+    {
+        "name": "Diamond Cement",
+        "address": "Diamond House - P.O. Box - 320, Tema, Ghana",
+        "phone": "+233 (0) 201 521 829",
+        "website": "https://diamondcement.com/togo/",
+        "image": "diamondcement.webp",
+        "membership_level": 2,
+        "industry": "Construction",
+        "email": "info.dcgl@diamondcement.com"
+    },
+    {
+        "name": "NSIA Banque",
+        "address": "3519 Boulevard du 13 Janvier, Doulassamé BP 3925 Lomé, Togo",
+        "phone": "+228 22 53 10 01",
+        "website": "https://nsiabanque.tg/",
+        "image": "nsiabanque.webp",
+        "membership_level": 3,
+        "industry": "Banking",
+        "email": "ecoute@nsiabanque.com"
+    },
+    {
+        "name": "Sototoles",
+        "address": " Zone Industrielle Lomé, Togo",
+        "phone": "+228 22 27 42 75",
+        "website": "https://sototoles.com/",
+        "image": "sototoles.webp",
+        "membership_level": 1,
+        "industry": "Manufacturing",
+        "email": "contact@sototoles.com"
+    },
+    {
+        "name": "Orabank",
+        "address": "Angle Avenue des Nîmes et Nicolas Grunitzky, Lomé, Togo",
+        "phone": "+228 22 21 62 21",
+        "website": "https://www.orabank.net/",
+        "image": "orabank.webp",
+        "membership_level": 3,
+        "industry": "Banking",
+        "email": "contact@orabank.com"
+    }
+]
