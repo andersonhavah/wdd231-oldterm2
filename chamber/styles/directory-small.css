@@ -1,0 +1,220 @@
+:root {
+    --primary-color: #0056b3;
+    --secondary-color: #000000;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header */
+header {
+    background-color: var(--primary-color);
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.logo {
+    display: block;
+    padding: 16px 10px;
+    width: 100px;
+    height: 100px;
+}
+
+header span:first-child {
+    font-size: 2rem;
+}
+
+.chamberName div {
+    font-size: 1rem;
+}
+
+#darkBtn {
+    position: absolute;
+    top: 4rem;
+    right: 1.1rem;
+    width: 1.6rem;
+    cursor: pointer;
+    background-color: #ffffff;
+}
+
+.dark-mode {
+    background-color: #000;
+    color: #ffffff;
+    border-color: #eee;
+}
+
+.dark-mode .card {
+    background-color: #000000;
+    color: #ffffff;
+    border-color: #444;
+}
+
+/* Navigation */
+nav {
+    margin: 0 auto;
+    background-color: #36454f;
+}
+
+nav a {
+    display: none;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav a:hover {
+    background-color: #69a0db;
+}
+
+.navigation .active {
+    color: #ffff00;
+    text-decoration: overline;
+}
+
+/* Hamburger menu */
+#menu {
+    font-size: 2rem;
+    border: 0;
+    background: none;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+#menu::before {
+    content: "☰";
+    color: #ffffff;
+}
+
+#menu.open::before {
+    content: "X";
+}
+
+/* when the button is clicked - the open class is toggled (added/removed) */
+.open a {
+    display: block;
+}
+
+/* Main */
+main {
+    margin: 0 auto;
+    padding: 2rem 0;
+    max-width: 1000px;
+}
+/************************** DIRECTORY HERE **************************/
+div.theButtons {
+    width: 100%;
+    text-align: center;
+}
+
+div.theButtons button.active {
+    background-color: #f27d80;
+}
+
+div.theButtons button {
+    margin: 0 1rem;
+    padding: .7rem 1rem;
+    border-radius: 10px;
+    border: 1px solid #666;
+}
+
+div#members {
+    margin: 0 2vw;
+}
+
+/*GRID layout here*/
+div.grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+
+}
+
+div.grid div {
+    text-align: center;
+    margin: 1rem 0;
+    border: solid 1px #aaa;
+    background-color: #eee;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 300px;
+}
+
+div.grid img:first-child {
+    width: 100px;
+    height: 50px;
+}
+
+div.grid h3 {
+    margin: .2rem 0;
+}
+
+div.grid p {
+    margin: .2rem 0;
+}
+
+/*LIST layout here*/
+div.list div {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    align-items: center;
+    margin: .5rem 0;
+    padding: 5px;
+    border: solid 1px #aaa;
+    background-color: #eee;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+div.list img:first-child {
+    display: none;
+}
+
+h1 {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+/* Footer */
+footer {
+    background-color: var(--primary-color);
+    color: #ffffff;
+}
+
+footer div {
+    padding: 10px;
+    margin: 0 auto;
+}
+
+/* footer div.social {
+    display: flex;
+    justify-content: center
+} */
+
+footer div.social img {
+    width: 44px;
+    height: 44px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+footer img {
+    width: auto;
+    height: 44px;
+    margin: 0 10px;
+}
+
+footer p {
+    line-height: 1.5;
+}
