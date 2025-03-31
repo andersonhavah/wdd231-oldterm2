@@ -1,0 +1,24 @@
+@media screen and (min-width: 550px) {
+    nav {
+        display: flex;
+    }
+
+    nav a {
+        display: block;
+        flex: 1 1 100%;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    footer div {
+        padding: 2rem 10px;
+    }
+
+}
