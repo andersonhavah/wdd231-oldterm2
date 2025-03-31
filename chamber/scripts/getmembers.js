@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
             const memberCard = document.createElement('div');
             memberCard.classList.add('member-card');
             memberCard.innerHTML = `
-                <img src="images/${member.image}" alt="${member.name}" loading="lazy" width="200" height="100">
+                <img src="images/${member.image}" alt="${member.name}" loading="lazy">
                 <h3>${member.name}</h3>
                 <p>${member.address}</p>
                 <p>${member.phone}</p>
