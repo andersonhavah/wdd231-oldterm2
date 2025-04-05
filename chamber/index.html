@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content=" This is the home page for the chamber of commerce of Lome, Togo.">
+    <meta name="author" content="Anderson Havah">
+    <title>Lome Chamber of Commerce</title>
+
+    <!-- Meta OG Tags -->
+    <meta property="og:title" content="Lome Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image"
+        content="https://prod.cdn-medias.jeuneafrique.com/cdn-cgi/image/q=auto,f=auto,metadata=none,width=1215,height=810,fit=cover/https://prod.cdn-medias.jeuneafrique.com/medias/2021/08/13/jad20210813-objectif-lome-ouverture.jpg">
+    <meta property="og:url" content="https://andersonhavah.github.io/wdd231/chamber/directory.html">
+    <meta property="og:description"
+        content="This is the directory page for the chamber of commerce of Lome, Togo. The page contains a list of businesses in Lome, Togo.">
+
+    <!-- Import a google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+
+    <!-- Styling -->
+    <link rel="stylesheet" href="../styles/normalize.css">
+    <link rel="stylesheet" href="styles/chamber-small.css">
+    <link rel="stylesheet" href="styles/chamber-large.css">
+    <link rel="icon" href="favicon.ico">
+
+    <!-- JavaScript Files -->
+    <!-- <script src="scripts/directory.js" defer></script> -->
+    <script src="scripts/getmembers.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/navigation.js" defer></script>
+
+
+</head>
+
+<body>
+    <header>
+        <a href="#"><img class="logo" src="images/logo.webp" alt="The logo of the Lome chamber of commerce"></a>
+        <div class="chamberName">
+            <span>Lome</span>
+            <div>Chamber of Commerce</div>
+        </div>
+
+    </header>
+
+    <!-- Navigation -->
+    <button type="button" id="menu" aria-label="the menu"></button>
+    <nav class="navigation">
+        <a href="#">Home</a>
+        <a href="directory.html" class="active">Directory</a>
+        <a href="#">Join</a>
+        <a href="#">Discover</a>
+    </nav>
+    <img src="images/dark.svg" alt="dark mode" id="darkBtn">
+
+    <main>
+       
+    </main>
+
+    <footer>
+        <div class="address">
+            <p>Lome Chamber of Commerce</p>
+            <p>15 Boulevard Malfa</p>
+            <p>Lome, Togo</p>
+            <p>info@lomecc.org</p>
+            <p>(228) 22-55-23-00</p>
+        </div>
+        <div class="social">
+            <a href="#"><img src="images/facebook.svg" alt="facebook" width="54" height="44"></a>
+            <a href="#"><img src="images/twitter-x.svg" alt="X (old twitter)" width="54" height="44"></a>
+            <a href="#"><img src="images/linkedin.svg" alt="linkedin" width="54" height="44"></a>
+        </div>
+        <div class="project">
+            <p>WDD231 Class Project</p>
+            <p>Anderson Havah</p>
+            <p>&copy; <span id="currentYear"></span> Lome Chamber of Commerce</p>
+            <p id="lastModified"></p>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
